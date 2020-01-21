@@ -1,0 +1,51 @@
+/control/verbose 2
+/run/verbose 2
+/event/verbose 2
+/tracking/verbose 2
+
+#/neutronlab/primary none
+#/neutronlab/primary
+
+#/neutronlab/generalMode true
+
+#/neutronlab/generator/List
+
+/neutronlab/gun/particle geantino
+/neutronlab/gun/type Point
+/neutronlab/gun/angtype direction
+
+#/neutronlab/gun/particle neutron
+#/neutronlab/gun/energy 1 MeV
+
+
+#/neutronlab/gun/center 0 0. 0. cm
+#/neutronlab/gun/direction 0 1 0
+
+#/neutronlab/gun/center 0. 8905 0. mm
+#/neutronlab/gun/direction -1 0 0
+
+#/neutronlab/gun/center -678 0 0. mm
+#/neutronlab/gun/direction 0 1 0
+
+#/neutronlab/gun/center -678 8905 10000. mm
+#/neutronlab/gun/direction 0 0 -1
+
+#/neutronlab/gun/center -660 9142 -256 mm
+#/neutronlab/gun/direction 0 0 1
+
+#/neutronlab/gun/center -660.4 9434 -255.7 mm
+#/neutronlab/gun/direction 0 1 0
+
+#/neutronlab/gun/center -660.4 -1000 -255.7 mm
+/neutronlab/gun/center -660.4 9669 -255.7 mm
+/neutronlab/gun/direction 0 1 0
+
+
+#/neutronlab/gun/type Volume
+#/neutronlab/gun/shape Cylinder
+#/neutronlab/gun/radius 3.5 m
+#/neutronlab/gun/halfz 2.5 m
+
+#/neutronlab/gun/confine generatorHousingSteel*
+
+/run/beamOn 1

@@ -1,0 +1,16 @@
+/control/verbose 0
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+
+/neutronlab/gun/particle neutron
+/neutronlab/gun/energy 14.1 MeV
+
+/neutronlab/gun/type Point
+/neutronlab/gun/angtype iso
+# neutron emission point
+/neutronlab/gun/center -660 9142 -256 mm
+#/neutronlab/gun/direction 0 1 0
+
+/run/beamOn 100000
